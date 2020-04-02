@@ -1,0 +1,57 @@
+body{
+  color: white;
+  background-color: #343a40;
+}
+.intro{
+  padding-top: 177px;
+  padding-bottom: 77px;
+}
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.intro hr{
+  width: 40%;
+}
+#intro hr{
+  width: 77%;
+}
+#edu .row{
+  padding-left: 10%;
+  padding-top: 40px;
+}
+
+#skills hr{
+  width: 25%;
+}
+
+#contact hr{
+  width: 25%;
+}
+
+.table-responsive-md{
+  width: 90%;
+}
+
+.icons{
+  padding-top: 40px;
+  width: 90%;
+  padding-left: 7%;
+}
+
+.projects{
+  padding-top: 40px;
+  padding-left: 16%;
+  width: 80%;
+}
+
+.contactDiv{
+  padding-top: 50px;
+  padding-left: 5%;
+  width: 50%;
+}
