@@ -9,3 +9,8 @@ $(document).ready(function(){
         $("html, body").stop().animate({scrollTop: $($(this).attr("href")).offset().top}, 400);
     });
 });
+
+$('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
+    if($(window).width() < 990 )
+        $('.navbar-collapse').collapse('hide');
+});
