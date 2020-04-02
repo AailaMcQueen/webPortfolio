@@ -3,6 +3,13 @@ body{
   background-color: #343a40;
   position: relative;
 }
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .intro{
   padding-top: 177px;
   padding-bottom: 77px;
