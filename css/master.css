@@ -1,6 +1,7 @@
 body{
   color: white;
   background-color: #343a40;
+  position: relative;
 }
 .intro{
   padding-top: 177px;
@@ -46,12 +47,11 @@ hr{
 
 .projects{
   padding-top: 40px;
-  padding-left: 16%;
+  padding-left: 15%;
   width: 80%;
 }
 
 .contactDiv{
   padding-top: 50px;
-  padding-left: 5%;
   width: 50%;
 }

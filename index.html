@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="./css/master.css">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+  <body data-spy="scroll" data-target="#spyData">
+    <nav id="spyData" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#intro">Hello there!</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -17,8 +17,8 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">About Me!<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me!</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#edu">Education</a>
@@ -212,10 +212,10 @@
     </div>
     <div class="container-fluid bg-dark intro" id="exp">
       <div class="text-center">
-        <h1>Work Experience/Projects</h1>
+        <h1>Projects</h1>
         <hr>
       </div>
-      <div class="row row-cols-2 row-cols-md-2 projects">
+      <div class="row row-cols-1 row-cols-md-2 projects">
         <div class="col mb-4">
           <div class="card bg-dark h-100">
             <div class="card-body text-center">
@@ -245,14 +245,14 @@
       </div>
       <div class="container-fluid bg-dark contactDiv">
         <div class="row">
-          <div class="col-sm text-left">
+          <div class="col-lg text-left" style="padding-bottom: 30px;">
             <h6><ion-icon name="location"></ion-icon> New Delhi, India</h6>
             <h6><ion-icon name="mail"></ion-icon> srkjadara@gmail.com</h6>
           </div>
-          <div class="col-sm text-left">
-            <h1><a href="http://www.instagram.com/shahrukhjadara" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><ion-icon name="logo-instagram"></ion-icon></a> <a href="http://www.github.com/theclassicwizard" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+          <div class="col-lg text-left">
+            <h2><a href="http://www.instagram.com/shahrukhjadara" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><ion-icon name="logo-instagram"></ion-icon></a> <a href="http://www.github.com/theclassicwizard" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub"><ion-icon name="logo-github"></ion-icon></a>
               <a href="http://www.linkedin.com/in/shahrukhjadara" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a> <a href="http://www.twitter.com/shahrukhjadara" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
-              <a href="http://www.facebook.com/shahrukh.jadara" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><ion-icon name="logo-facebook"></ion-icon></a></h1>
+              <a href="http://www.facebook.com/shahrukh.jadara" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><ion-icon name="logo-facebook"></ion-icon></a></h2>
           </div>
         </div>
       </div>
@@ -261,6 +261,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/scripts/master.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./scripts/master.js" charset="utf-8"></script>
   </body>
 </html>
