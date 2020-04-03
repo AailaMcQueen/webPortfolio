@@ -30,8 +30,11 @@ hr{
   width: 77%;
 }
 #edu .row{
-  padding-left: 10%;
+  margin: 0;
+  padding-left: 7%;
+  padding-right: 7%;
   padding-top: 40px;
+  width: 100%;
 }
 
 #skills hr{
@@ -43,22 +46,31 @@ hr{
 }
 
 .table-responsive-md{
-  width: 90%;
+  width: 100%;
 }
 
 .icons{
+  margin: 0;
   padding-top: 40px;
-  width: 90%;
+  width: 100%;
   padding-left: 7%;
+  padding-right: 7%;
 }
 
 .projects{
+  margin: 0;
   padding-top: 40px;
-  padding-left: 15%;
-  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  width: 100%;
 }
 
 .contactDiv{
   padding-top: 50px;
-  width: 50%;
+  margin: 0;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
 }
