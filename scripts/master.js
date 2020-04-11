@@ -15,10 +15,10 @@ $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
         $('.navbar-collapse').collapse('hide');
 });
 
-$(window).on('load', function() { // makes sure the whole site is loaded
-  $('#logocontainer').fadeOut();
-  $('#loaderLG').delay(770).css({'overflow':'hidden'});
-  $('#loaderLG').delay(770).css({'visibility':'hidden'});
-  $('.bodyPart').delay(770).css({'overflow':'visible'});
-  $('.bodyPart').delay(770).css({'visibility':'visible'});
+$(window).load(function() { // makes sure the whole site is loaded
+  $('#logocontainer').fadeOut(1777);
+  $('#loaderLG').delay(1777).css({'overflow':'hidden'});
+  $('#loaderLG').delay(1777).css({'visibility':'hidden'});
+  $('.bodyPart').delay(1777).css({'overflow':'visible'});
+  $('.bodyPart').delay(1777).css({'visibility':'visible'});
 })
