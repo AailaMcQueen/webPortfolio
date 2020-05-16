@@ -91,6 +91,10 @@ html, body{
   margin: 0;
 }
 
+.profContent{
+  padding-top: 4vh;
+}
+
 .intro{
   padding-top: 177px;
   padding-bottom: 77px;
