@@ -72,7 +72,6 @@ body{
 }
 
 
-
 .bodyPart{
   overflow: hidden;
   visibility: hidden;
@@ -92,12 +91,29 @@ html, body{
 }
 
 .profContent{
-  padding-top: 4vh;
+  padding-top: 3vh;
+  flex-grow: 2.5;
+}
+
+.pB1{
+  margin-left: 7vh;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .pB1{
+    margin-left: 0;
+  }
+}
+
+.pointBreak{
+  display: flex;
 }
 
 .intro{
   padding-top: 177px;
   padding-bottom: 77px;
+  justify-content: center;
 }
 hr{
   display: block;
