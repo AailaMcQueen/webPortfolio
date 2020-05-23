@@ -16,9 +16,9 @@ $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
 });
 
 $(window).load(function() { // makes sure the whole site is loaded
-  $('#logocontainer').fadeOut(1777);
-  $('#loaderLG').delay(1777).css({'overflow':'hidden'});
-  $('#loaderLG').delay(1777).css({'visibility':'hidden'});
-  $('.bodyPart').delay(1777).css({'overflow':'visible'});
-  $('.bodyPart').delay(1777).css({'visibility':'visible'});
+  $('#logocontainer').fadeOut(2000);
+  $('#loaderLG').delay(2000).css({'overflow':'hidden'});
+  $('#loaderLG').delay(2000).css({'visibility':'hidden'});
+  $('.bodyPart').delay(2000).css({'overflow':'visible'});
+  $('.bodyPart').delay(2000).css({'visibility':'visible'});
 })
